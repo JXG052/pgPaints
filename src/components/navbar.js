@@ -20,7 +20,7 @@ export default function Navbar() {
             <AppBar position="static" sx={{ bgcolor: 'white' }}>
                 <Toolbar >
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'black' }}>
-                        <NavLink to="/categories" activeClassName="active" style={{
+                        <NavLink to="/" activeClassName="active" style={{
                             color: 'black',
                             textDecoration: 'none',
                         }}

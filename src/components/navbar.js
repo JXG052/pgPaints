@@ -23,8 +23,8 @@ export default function Navbar() {
         //       <NavLink to="/categories" activeClassName="active">Categories</NavLink>
         // </div>
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
-                <Toolbar>
+            <AppBar position="static" sx={{ bgcolor: 'white' }}>
+                <Toolbar >
                     <IconButton
                         size="large"
                         edge="start"
@@ -34,14 +34,14 @@ export default function Navbar() {
                     >
                         {/*Menu Icon was here */}
                     </IconButton>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                    <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'black' }}>
                         PG Paint
                     </Typography>
                     <Stack direction="row" spacing={2}>
-                        <SearchIcon />
-                        <PersonIcon />
-                        <FavoriteBorderIcon />
-                        <ShoppingBasketIcon />
+                        <SearchIcon sx={{ color: 'black' }} />
+                        <PersonIcon sx={{ color: 'black' }} />
+                        <FavoriteBorderIcon sx={{ color: 'black' }} />
+                        <ShoppingBasketIcon sx={{ color: 'black' }} />
                     </Stack>
 
                 </Toolbar>

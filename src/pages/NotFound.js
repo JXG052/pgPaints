@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function About() {
+export default function NotFound() {
   return (
     <div>
-      This is the about page
+      Page not found
     </div>
   )
 }

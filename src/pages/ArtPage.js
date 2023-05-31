@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function About() {
+export default function ArtPage() {
   return (
     <div>
-      This is the about page
+      This is the Art page
     </div>
   )
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import About from './pages/About';
+import About from './pages/about.js';
 import ArtPage from './pages/ArtPage';
-import Catalog from './pages/Catalog';
-import Categories from './pages/Categories';
+import Catalog from './pages/catalog';
+import Categories from './pages/categories';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 
 
 

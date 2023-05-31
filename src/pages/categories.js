@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function categories() {
+export default function Categories() {
   return (
     <div>
       This is the categories page

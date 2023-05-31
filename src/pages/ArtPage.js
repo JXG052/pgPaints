@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function individualArt() {
+export default function ArtPage() {
   return (
     <div>
-      This is the individualArt page
+      This is the Art page
     </div>
   )
 }

@@ -7,6 +7,7 @@ import Categories from './pages/categories';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Navbar from './components/navbar';
+import RouterBar from './components/RouterBar..js';
 
 
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <RouterBar />
       {/* Wrap Route elements in a Routes component */}
       <Routes>
         <Route exact path="/" element={<Home />} />

@@ -15,27 +15,19 @@ import Stack from '@mui/material/Stack';
 
 export default function Navbar() {
     return (
-        // <div>
-        //       <NavLink exact to="/" activeClassName="active">Home</NavLink>
-        //       <NavLink to="/about" activeClassName="active">About</NavLink>
-        //       <NavLink to="/catalog" activeClassName="active">Catalog</NavLink>
-        //       <NavLink to="/artPage" activeClassName="active">ArtPage</NavLink>
-        //       <NavLink to="/categories" activeClassName="active">Categories</NavLink>
-        // </div>
+
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static" sx={{ bgcolor: 'white' }}>
                 <Toolbar >
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 2 }}
-                    >
-                        {/*Menu Icon was here */}
-                    </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'black' }}>
-                        PG Paint
+                        <NavLink to="/categories" activeClassName="active" style={{
+                            color: 'black',
+                            textDecoration: 'none',
+                        }}
+                            activeStyle={{
+                                textDecoration: 'underline',
+                            }}>PG Paint</NavLink>
+                        
                     </Typography>
                     <Stack direction="row" spacing={2}>
                         <SearchIcon sx={{ color: 'black' }} />

@@ -10,17 +10,19 @@ export default function categoryStack() {
                     height: '15vh',
                     display: 'flex',
                     flexDirection: 'column',
-                    justifyContent: 'center'
+                    justifyContent: 'center',
+                    align: 'center'
                 }}
             >
-                <Grid container spacing={2} sx={{ display: 'flex' }}>
-                    <Grid item xs={6} >
+                <Grid container sx={{ ml: 1.4 }}>
+                    <Grid item xs={6} sx={{ m: 0, p: 0 }}>
                         <Button
                             fullWidth
                             variant="contained"
                             color="primary"
                             sx={{
                                 backgroundColor: 'black',
+                                maxWidth: '80%',
                                 m: 1,
                                 color: 'white',
                                 '&:hover': {
@@ -31,13 +33,14 @@ export default function categoryStack() {
                             Cartoons
                         </Button>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={6} sx={{ m: 0, p: 0 }}>
                         <Button
                             fullWidth
                             variant="contained"
                             color="primary"
                             sx={{
                                 backgroundColor: 'black',
+                                maxWidth: '80%',
                                 m: 1,
                                 color: 'white',
                                 '&:hover': {
@@ -51,14 +54,15 @@ export default function categoryStack() {
                 </Grid>
 
 
-                <Grid container spacing={2} >
-                    <Grid item xs={6}>
+                <Grid container sx={{ ml: 1.4 }} >
+                    <Grid item xs={6} sx={{ m: 0, p: 0 }}>
                         <Button
                             fullWidth
                             variant="contained"
                             color="primary"
                             sx={{
                                 backgroundColor: 'black',
+                                maxWidth: '80%',
                                 m: 1,
                                 color: 'white',
                                 '&:hover': {
@@ -69,13 +73,14 @@ export default function categoryStack() {
                             Favourites
                         </Button>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={6} sx={{ m: 0, p: 0 }} >
                         <Button
                             fullWidth
                             variant="contained"
                             color="primary"
                             sx={{
                                 backgroundColor: 'black',
+                                maxWidth: '80%',
                                 m: 1,
                                 color: 'white',
                                 '&:hover': {

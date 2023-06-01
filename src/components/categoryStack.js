@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack, Box, Button, Grid } from '@mui/material'
+import { Stack, Button, Grid } from '@mui/material'
 
 export default function categoryStack() {
     return (

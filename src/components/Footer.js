@@ -5,13 +5,18 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LanguageIcon from '@mui/icons-material/Language';
 import ChatIcon from '@mui/icons-material/Chat';
+import SocialLinks from './socialLinks'
+import CopyrightIcon from '@mui/icons-material/Copyright';
 
 export default function Footer() {
   return (
     <div>
+      <Divider />
+      <SocialLinks />
+      <Divider />
       <Box sx={{ backgroundColor: '#617073', p: 2, width: '100%', height: '30px', display: 'flex', alignItems: 'center' }}>
         <AccountCircleIcon />
-        <Typography sx={{ml: 1}}> My Account</Typography>
+        <Typography sx={{ ml: 1 }}> My Account</Typography>
       </Box>
       <Divider />
       <Box sx={{ backgroundColor: '#617073', p: 2, width: '100%', height: '30px', display: 'flex', alignItems: 'center' }}>
@@ -58,6 +63,10 @@ export default function Footer() {
         </AccordionDetails>
       </Accordion>
       <Divider />
+      <Box sx={{ backgroundColor: '#617073', p: 2, width: '80%', height: '30px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <CopyrightIcon />
+        <Typography variant='p'>2023 PG Paints Ltd. All rights reserve</Typography>
+      </Box>
     </div>
   )
 }

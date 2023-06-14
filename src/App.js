@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Navbar from './components/navbar';
 import RouterBar from './components/RouterBar..js';
+import Footer from './components/Footer.js';
 
 
 
@@ -27,7 +28,7 @@ function App() {
         <Route path="/Categories" element={<Categories />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-
+      <Footer></Footer>
 
     </Router>
   );

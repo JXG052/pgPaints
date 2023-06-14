@@ -1,6 +1,6 @@
 import React from 'react'
 import randArt6 from '../images/randArt6.jpeg'
-import { Box, Typography } from '@mui/material'
+import { Box, Divider, Typography } from '@mui/material'
 import CategoryStack from '../components/categoryStack'
 import CategoryImageLink from '../components/categoryImageLink'
 
@@ -18,6 +18,8 @@ export default function Home() {
             <Typography align='center' gutterBottom={true}>Explore our Catalog</Typography>
             <CategoryStack />
             <CategoryImageLink />
+            <Divider> 
+            </Divider>
         </>
     )
 }

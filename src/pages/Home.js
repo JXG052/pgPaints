@@ -5,20 +5,20 @@ import CategoryStack from '../components/categoryStack'
 import CategoryImageLink from '../components/categoryImageLink'
 
 
-export default function Home() {
+export default function Home() {    
     return (
         <>
-            <Box sx={{ flexGrow: 1 }}>
+            <Box sx={{ flexGrow: 1, width: '100%', display: 'block' }}>
                 <img
                     src={randArt6}
                     alt='eye'
-                    style={{ width: '100%', objectFit: 'cover' }}
+                    style={{ width: '100%', objectFit: 'cover', maxWidth: '100%' }}
                 />
             </Box>
             <Typography align='center' gutterBottom={true}>Explore our Catalog</Typography>
             <CategoryStack />
             <CategoryImageLink />
-            <Divider> 
+            <Divider>
             </Divider>
         </>
     )

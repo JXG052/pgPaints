@@ -8,6 +8,9 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Navbar from './components/navbar';
 import RouterBar from './components/RouterBar..js';
+import Footer from './components/Footer.js';
+import { Box } from '@mui/material';
+import './App.css'
 
 
 
@@ -15,6 +18,9 @@ import RouterBar from './components/RouterBar..js';
 
 function App() {
   return (
+    
+    <Box sx={{ width: '100%', overflowX: 'hidden', flexGrow: 1, display: 'block', minHeight: '100vh'}}>
+
     <Router>
       <Navbar />
       <RouterBar />
@@ -27,9 +33,11 @@ function App() {
         <Route path="/Categories" element={<Categories />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-
+      <Footer></Footer>
 
     </Router>
+    </Box>
+    
   );
 }
 

@@ -3,6 +3,7 @@ import randArt6 from '../images/randArt6.jpeg'
 import { Box, Divider, Typography } from '@mui/material'
 import CategoryStack from '../components/categoryStack'
 import CategoryImageLink from '../components/categoryImageLink'
+import EmailSubscribe from '../components/emailSubscribe.js'
 
 
 export default function Home() {    
@@ -20,6 +21,7 @@ export default function Home() {
             <CategoryImageLink />
             <Divider>
             </Divider>
+            <EmailSubscribe />
         </>
     )
 }
